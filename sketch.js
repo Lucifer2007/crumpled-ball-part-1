@@ -27,7 +27,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(230);
+  background("black");
  
 
   groundObject.display();

@@ -8,7 +8,7 @@ class Paper{
 
 			
 			}
-        this.body=Bodies.circle(600,150,20,options)
+        this.body=Bodies.circle(600,150,40,options)
             World.add(world,this.body);
     }
  display(){
@@ -18,7 +18,7 @@ class Paper{
     translate(paperpos.x, paperpos.y);
     ellipseMode(RADIUS)
     strokeWeight(3);
-    fill("yellow")
+    fill("red")
     ellipse(0,0,20,20);
     pop()
  }
